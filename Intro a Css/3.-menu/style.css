@@ -1,0 +1,27 @@
+
+
+.menu{
+    background: #4357ad;
+    width: 200px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+
+ul li {
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255,.3)
+}
+
+li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+li:hover{
+    background: #4888d6;
+
+}
