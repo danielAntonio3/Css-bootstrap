@@ -3,3 +3,56 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: #f2f2f2;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    background: #212d40;
+    height: 500px;
+
+    /*propiedad que permite la flexivilidad */ 
+    display: flex;
+
+    /*para que los elemetos hijo se coloquen de foma horizontal*/
+    flex-direction: row;
+
+    /*Para que los elementos hijo se coloquen de forma horizontal pero invierte el orden de las cajas*/
+    /*flex-direction: row-reverse;*/
+
+    /*COLOCA LOS ELEMENTOS HIJO DE FORMA VERTICAL*/
+    /*flex-direction: column;*/
+
+    /*Para que los elementos hijo se coloquen de forma vertical pero invierte el orden de las cajas*/
+    /*flex-direction: column-reverse;*/
+
+    /*PARA QUE RESPETE LAS DIMENSIONES DE LAS CAJA HIJO EN CASO DE QUE SE LLENE LA CAJA DA UN SALTO Y SE COLOCA EN LA PARTE DA ABAJO */
+    flex-wrap: wrap;
+    /*PARA QUE LOS ELEMENTOS SE COLOQUEN EN UNA SOLA LINEA Y DISMINUÑA EL TAMAÑO DE LAS CAJAS HIJO*/
+    /*flex-wrap: no-wrap;*/
+
+    /*INCLUYE LAS DOS PROPIEDADE TANTO EL DIRECTION Y EL WRAP*/
+    /*flex-flow: row wrap;*/
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+
+.caja{
+    
+    width: 100px;
+    height: 100px;
+    background: #f79256;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 40px;
+    color: #fff;
+}
