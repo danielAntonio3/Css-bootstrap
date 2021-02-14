@@ -1,0 +1,118 @@
+
+/*
+! COSAS QUE PODEMOS HACER CON 
+* transfrom: 
+---------------------------------------------------------
+? TRASLADAR ELEMENTOS MOVERLOS DE LUGRA (px)
+! translate(movimiento_horizontal , movimiento_vertical);
+* Ejemplo: transform: translate(200px, 100px);
+* transform: translateY(200px);
+* transform: translateX(200px);
+---------------------------------------------------------
+? ESCALAR ELEMENTOS HACERLOS MAS GRANDES (numero)
+! transform: scale(ANCHO,ALTO); 
+* EJEMPLO: transform: scale(2,2);
+---------------------------------------------------------
+? ROTAR ELEMENTOS CAMBIEL EL ANGULOS (deg)
+! transform: rotate( NUMEROdeg);
+* EJEMPLO: transform: rotate(45deg);
+---------------------------------------------------------
+? SESGAR ELEMENTOS PARA CAMBIAR LA FORMA QUEI TIENE (deg)
+! transform: skew(vertical,horizontal); 
+* EJEMPLO: transform: skew(20deg,0deg);
+*/
+
+/* 
+! TRANSITION
+! APLICAR UNA TRANSISCION
+? transition: propiedad tiempo tipo_de_transicion;
+* EJEMPLO: transition: background 1s ease;
+* transition: all 1s ease; (aplicarle a todas las propiedades).
+
+! PARA RETRAZAR UNA TRANCISION
+? transition-delay: segundos;
+* Ejemplo: transition-delay: 2s;
+
+*/
+
+/*
+? ease        -- INICIA LENTO, DESPUES RAPIDO Y TERMINA LENTO
+? linear      -- MISMA VELOcidad DE INICIO Y FIN
+? ease-in     -- INICIO LENTO
+? ease-out    -- FINAL LENTO 
+? ease-in-out -- INICIO LENTO FINAL LENTO
+*/
+
+
+:root{
+
+    --negro: #000;
+}
+
+.caja{
+    
+    background: #ffaa5a;
+    width: 200px;
+    height: 200px;
+
+    /* ! funciona sin el hover*/
+    /*transform: translate(200px, 100px);*/
+    /*transform: scale(2,1);*/
+    /*transform: rotate(45deg);*/
+    /*transform: skew(0deg,4deg);*/
+
+    /*! Descomentar el hover para ver como funciona*/
+    /*transition: all .3s ease;*/
+    /*transition-delay: 2s;*/
+
+
+    /*! utilizando el keyframe*/
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+    /*animation: nombre duracion timing-function tiempo_espera forma_de_repetir direction fill-mode;*/
+    animation: colores 2s ease 2;
+
+}
+
+
+@keyframes colores{
+
+    0%{
+        background: #ffaa5a;
+    }
+    25%{
+        background: #fff;
+    }
+    50%{
+        background: #fff;
+    }
+    100%{
+        background: #ffaa5a;
+    }
+
+
+    }
+
+
+/*.caja:hover{
+    background:  var(--negro);
+    transform: scale(1.5) translate(0px, 200px);
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
