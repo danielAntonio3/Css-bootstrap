@@ -49,6 +49,12 @@
     --negro: #000;
 }
 
+.contenedor{
+    /*background: #000;*/
+    width: 300px;
+    height: 300px;
+}
+
 .caja{
     
     background: #ffaa5a;
@@ -93,26 +99,10 @@
     }
 
 
-/*.caja:hover{
+/*
+.contenedor:hover .caja{
     background:  var(--negro);
     transform: scale(1.5) translate(0px, 200px);
-}*/
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
