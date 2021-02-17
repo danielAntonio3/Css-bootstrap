@@ -13,13 +13,237 @@
 <body>
     
         <div class="container">
-            <div class="row mt-3">
-                <div class="col-12">
-                    <h4>Tipos de Display flex</h4>
+            <div class="row my-4">
+                <div class="col">
+                    <h4 class="text-center">Wrap</h4>
                     <hr>
+
+                    <p>.flex-nowrap</p>
+                    <div class="contenedor d-flex">
+                        <div>caja 1</div>
+                        <div>caja 2</div>
+                        <div>caja 3</div>
+                        <div>caja 4</div>
+                        <div>caja 5</div>
+                        <div>caja 6</div>
+                        <div>caja 7</div>
+                        <div>caja 8</div>
+                        <div>caja 9</div>
+                        <div>caja 10</div>
+                        <div>caja 11</div>
+                        <div>caja 12</div>
+                        <div>caja 13</div>
+                        <div>caja 14</div>
+                        <div>caja 15</div>
+                        <div>caja 16</div>
+                        <div>caja 17</div>
+                        <div>caja 18</div>
+                    </div>
+
+                    <p>.flex-wrap</p>
+                    <div class="contenedor d-flex flex-wrap">
+                        <div>caja 1</div>
+                        <div>caja 2</div>
+                        <div>caja 3</div>
+                        <div>caja 4</div>
+                        <div>caja 5</div>
+                        <div>caja 6</div>
+                        <div>caja 7</div>
+                        <div>caja 8</div>
+                        <div>caja 9</div>
+                        <div>caja 10</div>
+                        <div>caja 11</div>
+                        <div>caja 12</div>
+                        <div>caja 13</div>
+                        <div>caja 14</div>
+                        <div>caja 15</div>
+                        <div>caja 16</div>
+                        <div>caja 17</div>
+                        <div>caja 18</div>
+                    </div>
+
+
+                    <p>.flex-wrap-reverse</p>
+                    <div class="contenedor d-flex flex-wrap-reverse">
+                        <div>caja 1</div>
+                        <div>caja 2</div>
+                        <div>caja 3</div>
+                        <div>caja 4</div>
+                        <div>caja 5</div>
+                        <div>caja 6</div>
+                        <div>caja 7</div>
+                        <div>caja 8</div>
+                        <div>caja 9</div>
+                        <div>caja 10</div>
+                        <div>caja 11</div>
+                        <div>caja 12</div>
+                        <div>caja 13</div>
+                        <div>caja 14</div>
+                        <div>caja 15</div>
+                        <div>caja 16</div>
+                        <div>caja 17</div>
+                        <div>caja 18</div>
+                    </div>
+
+                
+
 
                 </div>
             </div>
+
+            <div class="row my-4">
+                <div class="col">
+                    <h4 class="text-center">Order</h4>
+                    <hr>
+                    <p>order-*</p>
+                    <div class="contenedor d-flex">
+                        <div class="order-3">caja 1</div>
+                        <div class="order-2">caja 2</div>
+                        <div class="order- 1">caja 3</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row my-4">
+                <div class="col">
+                    <h4 class="text-center">Align content</h4>
+                    <hr>
+
+                    <p>.align-content-start SOLO TOMAN EL TAMAÑO NECESARIO Y SE COLOCAN ARRIBA</p>
+                    <div class="contenedor d-flex flex-wrap align-content-start" style="height: 250px">
+                        <div>caja 1</div>
+                        <div>caja 2</div>
+                        <div>caja 3</div>
+                        <div>caja 4</div>
+                        <div>caja 5</div>
+                        <div>caja 6</div>
+                        <div>caja 7</div>
+                        <div>caja 8</div>
+                        <div>caja 9</div>
+                        <div>caja 10</div>
+                        <div>caja 11</div>
+                        <div>caja 12</div>
+                        <div>caja 13</div>
+                        <div>caja 14</div>
+                        <div>caja 15</div>
+                        <div>caja 16</div>
+                        <div>caja 17</div>
+                        <div>caja 18</div>
+                    </div>
+                    
+                    <p>.align-content-center</p>
+                    <div class="contenedor d-flex flex-wrap align-content-center" style="height: 250px">
+                        <div>caja 1</div>
+                        <div>caja 2</div>
+                        <div>caja 3</div>
+                        <div>caja 4</div>
+                        <div>caja 5</div>
+                        <div>caja 6</div>
+                        <div>caja 7</div>
+                        <div>caja 8</div>
+                        <div>caja 9</div>
+                        <div>caja 10</div>
+                        <div>caja 11</div>
+                        <div>caja 12</div>
+                        <div>caja 13</div>
+                        <div>caja 14</div>
+                        <div>caja 15</div>
+                        <div>caja 16</div>
+                        <div>caja 17</div>
+                        <div>caja 18</div>
+                    </div>
+
+                    <p>.align-content-end</p>
+                    <div class="contenedor d-flex flex-wrap align-content-end" style="height: 250px">
+                        <div>caja 1</div>
+                        <div>caja 2</div>
+                        <div>caja 3</div>
+                        <div>caja 4</div>
+                        <div>caja 5</div>
+                        <div>caja 6</div>
+                        <div>caja 7</div>
+                        <div>caja 8</div>
+                        <div>caja 9</div>
+                        <div>caja 10</div>
+                        <div>caja 11</div>
+                        <div>caja 12</div>
+                        <div>caja 13</div>
+                        <div>caja 14</div>
+                        <div>caja 15</div>
+                        <div>caja 16</div>
+                        <div>caja 17</div>
+                        <div>caja 18</div>
+                    </div>
+
+                    <p>.align-content-between</p>
+                    <div class="contenedor d-flex flex-wrap align-content-between" style="height: 250px">
+                        <div>caja 1</div>
+                        <div>caja 2</div>
+                        <div>caja 3</div>
+                        <div>caja 4</div>
+                        <div>caja 5</div>
+                        <div>caja 6</div>
+                        <div>caja 7</div>
+                        <div>caja 8</div>
+                        <div>caja 9</div>
+                        <div>caja 10</div>
+                        <div>caja 11</div>
+                        <div>caja 12</div>
+                        <div>caja 13</div>
+                        <div>caja 14</div>
+                        <div>caja 15</div>
+                        <div>caja 16</div>
+                        <div>caja 17</div>
+                        <div>caja 18</div>
+                    </div>
+
+                    <p>.align-content-around</p>
+                    <div class="contenedor d-flex flex-wrap align-content-around" style="height: 250px">
+                        <div>caja 1</div>
+                        <div>caja 2</div>
+                        <div>caja 3</div>
+                        <div>caja 4</div>
+                        <div>caja 5</div>
+                        <div>caja 6</div>
+                        <div>caja 7</div>
+                        <div>caja 8</div>
+                        <div>caja 9</div>
+                        <div>caja 10</div>
+                        <div>caja 11</div>
+                        <div>caja 12</div>
+                        <div>caja 13</div>
+                        <div>caja 14</div>
+                        <div>caja 15</div>
+                        <div>caja 16</div>
+                        <div>caja 17</div>
+                        <div>caja 18</div>
+                    </div>
+
+                    <p>.align-content-stretch</p>
+                    <div class="contenedor d-flex flex-wrap align-content-stretch" style="height: 250px">
+                        <div>caja 1</div>
+                        <div>caja 2</div>
+                        <div>caja 3</div>
+                        <div>caja 4</div>
+                        <div>caja 5</div>
+                        <div>caja 6</div>
+                        <div>caja 7</div>
+                        <div>caja 8</div>
+                        <div>caja 9</div>
+                        <div>caja 10</div>
+                        <div>caja 11</div>
+                        <div>caja 12</div>
+                        <div>caja 13</div>
+                        <div>caja 14</div>
+                        <div>caja 15</div>
+                        <div>caja 16</div>
+                        <div>caja 17</div>
+                        <div>caja 18</div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 
@@ -33,3 +257,4 @@
     integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 </body>
 </html>
+
